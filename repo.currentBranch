@@ -1,0 +1,3 @@
+repo.branches[repo.currentBranch] = append(repo.branches[repo.currentBranch], commitID)
+ fmt.Printf("Committed: %s - %s\n", commitID, message)
+}
